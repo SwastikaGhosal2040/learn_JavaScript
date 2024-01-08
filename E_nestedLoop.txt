@@ -1,0 +1,66 @@
+//nested loop
+for(person=1;person<=5;person++)
+{
+    console.log("Welcome person "+person)
+    //feed the 3 food items to person 1
+    for(food=1;food<=3;food++)
+    {
+        console.log("Feeding food item "+food)
+    }
+}
+
+Output:
+Welcome person 1
+Feeding food item 1
+Feeding food item 2
+Feeding food item 3
+Welcome person 2
+Feeding food item 1
+Feeding food item 2
+Feeding food item 3
+Welcome person 3
+Feeding food item 1
+Feeding food item 2
+Feeding food item 3
+Welcome person 4
+Feeding food item 1
+Feeding food item 2
+Feeding food item 3
+Welcome person 5
+Feeding food item 1
+Feeding food item 2
+Feeding food item 3
+
+Explanation:
+person=1 1<=5 ->Welcome person 1
+food=1   1<=3 ->Feeding food item 1
+food=2   2<=3 ->Feeding food item 2
+food=3   3<=3 ->Feeding food item 3
+food=4   4<=3 ->condition false...nothing is printed.Loop ends.
+
+person=2 2<=5 ->Welcome person 2
+food=1   1<=3 ->Feeding food item 1
+food=2   2<=3 ->Feeding food item 2
+food=3   3<=3 ->Feeding food item 3
+food=4   4<=3 ->condition false...nothing is printed.Loop ends.
+
+person=3 3<=5 ->Welcome person 3
+food=1   1<=3 ->Feeding food item 1
+food=2   2<=3 ->Feeding food item 2
+food=3   3<=3 ->Feeding food item 3
+food=4   4<=3 ->condition false...nothing is printed.Loop ends.
+
+person=4 4<=5 ->Welcome person 4
+food=1   1<=3 ->Feeding food item 1
+food=2   2<=3 ->Feeding food item 2
+food=3   3<=3 ->Feeding food item 3
+food=4   4<=3 ->condition false...nothing is printed.Loop ends.
+
+person=5 1<=5 ->Welcome person 5
+food=1   1<=3 ->Feeding food item 1
+food=2   2<=3 ->Feeding food item 2
+food=3   3<=3 ->Feeding food item 3
+food=4   4<=3 ->condition false...nothing is printed.Loop ends.
+
+person=6 6<=5 ->condition false...loop ends.
+
