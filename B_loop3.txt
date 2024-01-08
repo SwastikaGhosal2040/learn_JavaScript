@@ -1,0 +1,24 @@
+for(i=0,j=10;i<j;i++,j--)
+{
+    console.log("Hello Students!,i,j:"+i+","+j)
+}
+/*Predict the output when more than 1 initialization is present
+and increment, decrement both are given.
+Output:
+Hello Students!,i,j:0,10
+Hello Students!,i,j:1,9
+Hello Students!,i,j:2,8
+Hello Students!,i,j:3,7
+Hello Students!,i,j:4,6
+
+Explanation:
+i=0, j=10, 0<10, ->Hello Students!,i,j:0,10 
+i=1, j=9,  1<9,  ->Hello Students!,i,j:1,9
+i=2, j=8,  2<8,  ->Hello Students!,i,j:2,8
+i=3, j=7,  3<7,  ->Hello Students!,i,j:3,7
+i=4, j=6,  4<6,  ->Hello Students!,i,j:4,6
+i=5, j=5,  5!<5,  ->Nothing is printed as condition false.
+
+
+
+*/
