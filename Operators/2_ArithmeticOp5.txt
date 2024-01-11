@@ -1,0 +1,4 @@
+Output: 
+1st num is:  10
+2nd num is:  20
+Remainder is:  0
