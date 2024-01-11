@@ -1,0 +1,4 @@
+Output:
+1st num is:  10
+2nd num is:  20
+20  to the power  10  is: 10240000000000
