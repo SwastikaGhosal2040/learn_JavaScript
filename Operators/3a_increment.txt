@@ -1,0 +1,12 @@
+i = 5
+i++
+console.log(i)
+++i
+console.log(i)
+
+Explanation:
+i = 5 -> 5 value is assigned to i
+i++ -> i = 5 + 1 = 6
+console.log(i) -> 6 is printed
+++i -> 6 + 1 = 7
+console.log(i) -> 7 is printed
