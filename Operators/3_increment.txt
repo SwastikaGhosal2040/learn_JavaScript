@@ -1,0 +1,9 @@
+i = 5
+i++
+console.log(i)
+
+
+i=5 -> 5 value is assigned to i
+Here i++ means i = i + 1
+Now, i = 5 + 1 = 6
+console.log(i)  means 6 is printed
