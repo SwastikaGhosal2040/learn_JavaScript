@@ -1,0 +1,10 @@
+What is the difference between pre increment and post increment?
+
+pre increment(++i)
+->1st increment i
+->Take value of i
+
+post increment(i++)
+->1st take i
+->Then increment value of i
+
