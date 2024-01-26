@@ -37,5 +37,6 @@ switch(day)
  * Friday
  * Saturday
  * Sunday
+ * Not a valid number
  */
 
