@@ -1,0 +1,5 @@
+Explanation: 
+As there is no break statement after case 3, it will directly go to the next case, no condition is checked.
+So first Wednesday and in the next line Thursday is printed.
+After Thursday, break statement is there.
+Now this exits the switch statement.
