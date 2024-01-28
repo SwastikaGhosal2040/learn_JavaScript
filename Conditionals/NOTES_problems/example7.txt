@@ -1,0 +1,2 @@
+Output:
+The number given is an even number
