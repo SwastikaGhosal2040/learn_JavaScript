@@ -1,0 +1,5 @@
+Explanation: 
+
+This code will output Thursday to the console because the value of the variable day is 5
+
+As we have passed the day to the switch statement, the day matches case 5 in the switch statement. When this case is executed, it will run the code block associated with it, which is console.log("Thursday")
