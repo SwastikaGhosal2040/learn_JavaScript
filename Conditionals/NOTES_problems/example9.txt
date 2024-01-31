@@ -1,0 +1,2 @@
+Explanation:
+In the above example, the getValue function returns keywords "Excellent", "Average", "Below Average" based on grades A, B, C respectively. It uses switch statements and instead of the break keyword in every case we are returning value using the return keyword.
