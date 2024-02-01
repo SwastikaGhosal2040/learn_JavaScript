@@ -19,3 +19,7 @@ switch(role){
 }
 
 console.log(salary);
+
+/**Output:
+*110000
+*/
