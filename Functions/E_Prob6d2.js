@@ -1,3 +1,4 @@
+//predict the output:
 function return_greet_fn(){
     return function(){
         console.log("Hello Students")
@@ -15,3 +16,7 @@ function func1(){
 }
 
 func1()()
+
+Output:
+Hello from outer
+Hello from inner
