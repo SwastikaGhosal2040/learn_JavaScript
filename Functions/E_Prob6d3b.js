@@ -14,3 +14,11 @@ function func1(){
     }
 }
 func1()()()
+
+Output:
+Hello from outer
+Hello from inner
+Hello from inner most
+Hello from outer
+Hello from inner
+Hello from inner most
