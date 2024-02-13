@@ -5,3 +5,6 @@ function add(a,b){
 }
 
 add(5,6)
+
+Output:
+Inside the add function
