@@ -11,3 +11,9 @@ const add1 = (a,b) => {
 
 console.log(add(5,6))
 console.log(add1(5,6))
+
+Output:
+Inside the add function
+11
+Inside the add function
+11
