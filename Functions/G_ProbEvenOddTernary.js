@@ -13,9 +13,9 @@ Convert the above code into a single line of code.
 
 */
 
-typ = (a) => (a % 2 == 0) ? "Even" : "Odd"
+typ = (num) => (num % 2 == 0) ? "Even" : "Odd"
 
-console.log(typ(9))
+console.log(typ(23))
 
 /**
  * Output:
